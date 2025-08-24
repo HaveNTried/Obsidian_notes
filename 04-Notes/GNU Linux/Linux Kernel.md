@@ -1,7 +1,7 @@
 *12-08-2025 17:06*
 
 ### Status: 
-#sub-particle
+ 
 
 ### Tags: [[Linux]],[[Learning]], [[theoretical knowledge]]
 

@@ -1,6 +1,6 @@
 *21-08-2025 16:51*
 ### Status: 
-#sub-particle 
+  
 ### Tags: [[Linux]],[[theoretical knowledge]],[[Operating system]]
 
 # Linux SD

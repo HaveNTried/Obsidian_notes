@@ -1,7 +1,7 @@
 *12-08-2025 23:29*
 
 ### Status: 
-#atom 
+  
 
 
 ### Tags:[[03-Tags/Linux]],[[theoretical knowledge]], [[List]]

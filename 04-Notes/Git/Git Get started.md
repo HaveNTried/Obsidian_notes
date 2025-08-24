@@ -1,6 +1,6 @@
 *23-08-2025 17:31*
 ### Status: 
-#molecule  
+   
 ### Tags: [[Git]],[[Learning]], [[General knowledge]]
 
 # Git basics

@@ -1,7 +1,7 @@
 *12-08-2025 18:07*
 
 ### Status: 
-#atom
+ 
 
 
 ### Tags:[[Linux]],[[Learning]]

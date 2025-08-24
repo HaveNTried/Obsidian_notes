@@ -1,10 +1,10 @@
-*{{date}} {{time}}*
+*24-08-2025 13:54*
 ### Status: 
 Finished Working Frozen
-### Tags: 
+### Tags: [[Git]], [[Commands]]
 
 
-# {{Title}}
+# Git clone
 
 
 

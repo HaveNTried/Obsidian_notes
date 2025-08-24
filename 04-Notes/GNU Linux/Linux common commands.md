@@ -1,9 +1,9 @@
 *12-08-2025 17:43*
 
 ### Status: 
-#atom
+ 
 
-### Tags: [[03-Tags/Linux]],[[Learning]], [[List]]
+### Tags: [[03-Tags/Linux]],[[Learning]], [[List]],[[Commands]]
 
 
 

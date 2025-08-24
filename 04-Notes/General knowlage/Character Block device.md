@@ -1,6 +1,6 @@
 *21-08-2025 16:18*
 ### Status: 
-#sub-particle 
+  
 ### Tags: [[Linux]],[[theoretical knowledge]]
 
 
