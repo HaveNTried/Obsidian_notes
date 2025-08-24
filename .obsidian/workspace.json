@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "71565aac726abcb7",
+    "type": "split",
+    "children": [
+      {
+        "id": "154c84b3d6244a70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "121e21e04119525b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-Notes/Git/git commit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git commit"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4431f5d7b917ba17",
+    "type": "split",
+    "children": [
+      {
+        "id": "68a85a1a15579cb3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b69057ca6a63073d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b29793f1cd47873c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ed377f4945cfb696",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 260.5
+  },
+  "right": {
+    "id": "f42238376af0f766",
+    "type": "split",
+    "children": [
+      {
+        "id": "256020d721731468",
+        "type": "tabs",
+        "dimension": 65.55343511450381,
+        "children": [
+          {
+            "id": "312cf529a43528bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04-Notes/Git/git commit.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for git commit"
+            }
+          },
+          {
+            "id": "4833f1458353c690",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04-Notes/GNU Linux/Linux working with SD(Storage device).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Linux working with SD(Storage device)"
+            }
+          },
+          {
+            "id": "d7b35155db9c2283",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "87f69ef6477d5bb6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8e4977dc849d3377",
+        "type": "tabs",
+        "dimension": 34.44656488549618,
+        "children": [
+          {
+            "id": "97424a674f3ce12a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 329.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false
+    }
+  },
+  "active": "121e21e04119525b",
+  "lastOpenFiles": [
+    "04-Notes/Git/Git adding and commiting.md",
+    "04-Notes/Git/git add.md",
+    "01-Assets/git-cheat-sheet-education.pdf",
+    "04-Notes/Git/git status.md",
+    "04-Notes/Git/Git Get started.md",
+    "04-Notes/Git/git clone.md",
+    "04-Notes/Git/git commit.md",
+    "04-Notes/Git/Git config.md",
+    "04-Notes/Git/Git ignore.md",
+    "04-Notes/Git/git init.md",
+    "04-Notes/Git/git pull.md",
+    "04-Notes/Git/git push.md",
+    "04-Notes/Git/Git Setting up repository.md",
+    "04-Notes/GNU Linux/Linux common commands.md",
+    "04-Notes/GNU Linux/kill.md",
+    "03-Tags/Commands.md",
+    "06-Template/Template.md",
+    "03-Tags/Git.md",
+    "04-Notes/GNU Linux/Linux Kernel.md",
+    "Obsidian_notes",
+    "03-Tags/General knowledge.md",
+    "04-Notes/GNU Linux/Linux Kernel Practical Application.md",
+    "04-Notes/Git",
+    "04-Notes/GNU Linux/Linux working with SD(Storage device).md",
+    "Pasted image 20250822170441.png",
+    "01-Assets/Pasted image 20250821152238.png",
+    "01-Assets/OS-structure2.svg.png",
+    "01-Assets/Pasted image 20250821152244.png",
+    "04-Notes/GNU Linux/Linux SD (loader,BIOS,UIFI,partition).md",
+    "04-Notes/General knowlage/Kernel architectures.md",
+    "04-Notes/General knowlage/Invisible character.md",
+    "04-Notes/GNU Linux/Linux permissions.md",
+    "01-Assets/Pasted image 20250821165646.png",
+    "Pasted image 20250821141051.png",
+    "Pasted image 20250821141017.png",
+    "01-Assets/Pasted image 20250821124705.png",
+    "Pasted image 20250812220904.png",
+    "04-Notes/General knowlage",
+    "04-Notes/Polska Matura/utwory",
+    "04-Notes/Polska Matura",
+    "01-Assets/dh.png",
+    "02-Source of Material/YT_Playlist",
+    "06-Template",
+    "04-Notes/DevOps",
+    "05-Working sets/Other",
+    "Untitled.canvas"
+  ]
+}

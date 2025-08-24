@@ -15,8 +15,8 @@ Git also has excellent support for branching, merging, and rewriting repository 
 **Here is a basic overview of how Git works:**
 
 1. [[Git Setting up repository|Create a repository]] (project) with a git hosting tool (like Bitbucket, Github, Gitlab)
-2. Copy (or clone) the repository to your local machine
-3. Add a file to your local repo and "commit" (save) the changes
+2. [[git clone|Copy]] (or clone) the repository to your local machine
+3. [[Git adding and commiting|Add]] a file to your local repo and "commit" (save) the changes
 4. "Push" your changes to your main branch
 5. Make a change to your file with a git hosting tool and commit
 6. "Pull" the changes to your local machine

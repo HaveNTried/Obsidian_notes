@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:03-Tags  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:\"02-Source of Material\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 255
+      }
+    },
+    {
+      "query": "path:\"04-Notes/GNU Linux\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16744512
+      }
+    },
+    {
+      "query": "path:04-Notes/Git  ",
+      "color": {
+        "a": 1,
+        "rgb": 4259456
+      }
+    },
+    {
+      "query": "path:\"04-Notes/General knowlage\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8405247
+      }
+    },
+    {
+      "query": "path:04-Notes  ",
+      "color": {
+        "a": 1,
+        "rgb": 65280
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.13348388671875,
+  "close": true
+}
