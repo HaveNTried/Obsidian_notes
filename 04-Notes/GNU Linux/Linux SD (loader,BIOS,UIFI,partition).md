@@ -16,7 +16,24 @@ There are different types of partition tables: MBR, also known as DOS or MS-DOS;
 
 So, the MBR gives us 64 bytes to store all the information about the partitions. And each partition requires 16 bytes of information. The result is 4 partitions. Then the extended boot record (VBR) appeared, which made it possible to create extended partitions that allowed the 4-partition limit to be bypassed. Roughly speaking, instead of the partition record itself, a link to another table was specified, which indicated additional partitions. Also, it would not be possible to specify partitions larger than 2 TB in the MBR partition table, since the address does not fit in the table. As a result, the BIOS, with its limitations, created a lot of problems with forced workarounds.In the 2000s, they decided to get rid of these limitations and created a new standard – UEFI. Here, they really went wild—UEFI can weigh tens of megabytes, understands file systems, can work with networks, and has a graphical interface. More precisely, all of this can be implemented in UEFI, but not every manufacturer does so, except for some standard functionality. And, of course, there is no longer any need for a boot loader in MBR—why limit yourself to 446 bytes when you can add file system support to UEFI, where a full-fledged boot loader will reside? Plus, disk sizes are growing, so MBR has been replaced by GPT.There is no longer any need to keep the boot loader in the boot sector—UEFI uses a special EFI partition with the FAT32 file system for this purpose. The 2 TB limit has also been removed; GPT has a theoretical limit of almost 10 zettabytes. As for the number of partitions, they are essentially unlimited, except for the operating system, but even then we are talking about 128 partitions, which is more than enough. However, for compatibility purposes, UEFI allows the bootloader to be installed in the zero sector, as was the case with MBR.
 
+---
 
+### Reading MBR description (1sector last 16 bytes)
+
+```bash
+sudo dd if=/dev/sda bs=1 skip=446 count=16 | hexdump -C
+```
+
+```bash
+00000000  00 00 02 00 ee ff ff ff  01 00 00 00 ff ff ff 07  |................|
+16+0 records in
+16+0 records out
+16 bytes copied, 0.000244095 s, 65.5 kB/s
+00000010
+
+```
+
+- First 6 bytes are used for legacy compatibility 
 # References:
 
 - [[Linux working with SD(Storage device)]]
