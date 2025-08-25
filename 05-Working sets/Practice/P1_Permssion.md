@@ -1,3 +1,4 @@
+### Tags:[[Other]]
 ## Задания[](https://basis.gnulinux.pro/ru/latest/basis/20/20._%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0.html#id3 "Ссылка на этот заголовок")
 
 1. Создайте группы company, it, sales Создайте директории /company, /company/it, /company/sales, /company/shared Создайте пользователей ituser1, ituser2, itadmin, suser1, suser2, sadmin так, чтобы у всех пользователей основной группой должна быть company у пользователей it* оболочкой должен быть bash, дополнительной группой должна быть it, домашняя директория должна находиться внутри директории /company/it/ у пользователей s* оболочкой должен быть sh, дополнительной группой должна быть sales, домашняя директория внутри /company/sales Содержимое директории /company/sales должны видеть только root и участники группы sales  

@@ -1,0 +1,19 @@
+### Tags:[[Other]]
+## Booting with MBR in UEFI
+
+You can't directly boot an [MBR-partitioned](https://www.google.com/search?client=ubuntu-sn&channel=fs&cs=1&sca_esv=263d6f8b3f719809&sxsrf=AE3TifNRX6WuvEZVvRLYDoJGi3oxhYZTpQ%3A1756126961973&q=MBR-partitioned&sa=X&ved=2ahUKEwiZldXdgqaPAxWMk_0HHWNhFQwQxccNegQIAhAB&mstk=AUtExfBoA1zD6Vd8lRgTh5JdNDL0DwrKYUlAMxnzUErJ_iJNmiBm1_DeCqpWO7IZ-2f3A5pUCc0_uDoygZTqi9YjHEW6Gc5xJvvU84n1Jy46KGhOM93rd8Z1U9jGvfMrFI6dnBu9w-nh1y2WAMzPIDv7vc30hCr05BdDy0pxC2JTwMS3ma8&csui=3) disk in UEFI mode without first enabling the [Compatibility Support Module (CSM)](https://www.google.com/search?client=ubuntu-sn&channel=fs&cs=1&sca_esv=263d6f8b3f719809&sxsrf=AE3TifNRX6WuvEZVvRLYDoJGi3oxhYZTpQ%3A1756126961973&q=Compatibility+Support+Module+%28CSM%29&sa=X&ved=2ahUKEwiZldXdgqaPAxWMk_0HHWNhFQwQxccNegQIAhAC&mstk=AUtExfBoA1zD6Vd8lRgTh5JdNDL0DwrKYUlAMxnzUErJ_iJNmiBm1_DeCqpWO7IZ-2f3A5pUCc0_uDoygZTqi9YjHEW6Gc5xJvvU84n1Jy46KGhOM93rd8Z1U9jGvfMrFI6dnBu9w-nh1y2WAMzPIDv7vc30hCr05BdDy0pxC2JTwMS3ma8&csui=3), also known as Legacy BIOS mode. UEFI firmware natively requires a GPT ([GUID Partition Table](https://www.google.com/search?client=ubuntu-sn&channel=fs&cs=1&sca_esv=263d6f8b3f719809&sxsrf=AE3TifNRX6WuvEZVvRLYDoJGi3oxhYZTpQ%3A1756126961973&q=GUID+Partition+Table&sa=X&ved=2ahUKEwiZldXdgqaPAxWMk_0HHWNhFQwQxccNegQIAxAB&mstk=AUtExfBoA1zD6Vd8lRgTh5JdNDL0DwrKYUlAMxnzUErJ_iJNmiBm1_DeCqpWO7IZ-2f3A5pUCc0_uDoygZTqi9YjHEW6Gc5xJvvU84n1Jy46KGhOM93rd8Z1U9jGvfMrFI6dnBu9w-nh1y2WAMzPIDv7vc30hCr05BdDy0pxC2JTwMS3ma8&csui=3)) partition scheme and an EFI System Partition (ESP) for modern booting. To boot an MBR disk in a UEFI environment, ==you must switch the system's boot mode to Legacy/CSM in the firmware settings==, which enables the BIOS-style boot process to use the MBR. Alternatively, you can convert the disk to GPT and create an ESP to enable native UEFI booting
+
+---
+As long as you have an EFI system partition, the partition table type doesn't matter. _However_, Windows (uniquely) requires GPT to use EFI; this is not a problem with Linux.
+
+[The following answer](https://superuser.com/a/739285/27919) gives more details in regards to Windows and it's EFI support.
+
+> You're not asking about safety, but about support. Yes, EFI firmware has no trouble with an MBR partition table, which it can cope with just as it can cope with an EFI partition table. You just need to make sure that you have an EFI System Partition.
+
+> Your problem is Windows. Microsoft erroneously conflates has a GPT partitioned disc with bootstraps in the EFI way. So your laptop with a modern EFI partition table and modern EFI firmware has been installed and is bootstrapping Windows in the modern EFI way. Change to an MBR style partition table, and Windows will expect to be bootstrapping in the old PC98 way. You'd have to switch on the Compatibility Support Module option in your firmware, if it has it, and either reinstall Windows or individually modify the Microsoft Boot Manager, the system BCD store, the system volume's VBR, and the MBR bootstrap program.
+
+The following [answer](https://superuser.com/questions/931560/can-linux-os-boot-off-mbr-in-native-uefi) give more details in regards to Linux and its EFI support.
+
+> Linux can certainly boot off an MBR disk in EFI mode. The trouble is that this type of configuration is poorly tested, and you may have problems getting your boot loader registered with the EFI. You might need to name your boot loader EFI/BOOT/bootx64.efi and rely on the EFI using this fallback filename.
+
+> Also, most Linux distributions' installation programs won't make it easy to set up this sort of configuration; you may need to install to GPT and convert that to MBR, or install in BIOS mode and then install an EFI boot loader after the fact.

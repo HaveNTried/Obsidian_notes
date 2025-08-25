@@ -131,5 +131,5 @@ If we need a specific module not to load at startup or to load with certain para
 Here we have some commented examples. You can read more about this on [archwiki](https://wiki.archlinux.org/index.php/Kernel_module_\(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9\)).
 # References:
 
-- [[Linux Kernel]]
+- [[Linux Kernel(drivers , Modules)]]
   

@@ -1,7 +1,7 @@
 *{{date}} {{time}}*
 ### Status: 
 Finished Working Frozen
-### Tags: 
+### Tags: [[Other]]
 
 
 # {{Title}}

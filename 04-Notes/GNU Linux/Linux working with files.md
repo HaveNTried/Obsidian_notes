@@ -57,7 +57,7 @@ To hide file name must begin with `.` Like `.directory`
 # File editors
 
 ## vi
-![[vi_cheat_sheet.pdf]]
+[[vi_cheat_sheet.pdf]]
 
 [[vi_cheat_sheet.pdf|IF not comfortable to read]]
 
@@ -206,5 +206,5 @@ The /etc maintains a lot of files. Some of them are described below. For others,
 
 - [[Linux permissions]]
 - [[Linux User & groups]]
-- 
+- [[Linux working with file system]]
   

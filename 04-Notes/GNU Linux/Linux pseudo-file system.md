@@ -32,7 +32,7 @@
 ### References:
 
 - [[Linux working with processes]]
-- [[Linux Kernel]]
+- [[Linux Kernel(drivers , Modules)]]
 - [[Operating system]]
 - [[Linux working with SD(Storage device)]]
 
