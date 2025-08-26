@@ -133,6 +133,6 @@ Has a similar usage and functionality
 
 - [[Linux Kernel Practical Application]]
 - [[Linux pseudo-file system]]
-- [[Linux SD (loader,BIOS,UIFI,partition)]]
-- [[Linux working with file system]]
+- [[SD (loader,BIOS,UIFI,partition)]]
+- [[Linux working with file system Practical]]
   

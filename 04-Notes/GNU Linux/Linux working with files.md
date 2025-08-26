@@ -11,7 +11,7 @@
 # Linux working with files
 
 
-# Most simplest way using terminal
+### Most simplest way using terminal
 [[Linux common commands#^83020d|Commands watch here]] .
 
 ## Hard and soft links
@@ -206,5 +206,5 @@ The /etc maintains a lot of files. Some of them are described below. For others,
 
 - [[Linux permissions]]
 - [[Linux User & groups]]
-- [[Linux working with file system]]
+- [[Linux working with file system Practical]]
   

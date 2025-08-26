@@ -1,7 +1,7 @@
 *21-08-2025 16:51*
 ### Status: 
   
-### Tags: [[Linux]],[[theoretical knowledge]],[[Operating system]]
+### Tags:[[General knowledge]], [[theoretical knowledge]],[[Operating system]]
 
 # Linux SD
 

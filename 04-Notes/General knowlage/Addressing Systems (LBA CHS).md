@@ -34,7 +34,7 @@ For hard disks larger than 7,844 gigabytes, there continued to be a need to supp
 
 The first sector for a partitioned hard disk (LBA 0 or CHS 0/0/1) contains:
 
-- the Master Boot Record ([[Linux SD (loader,BIOS,UIFI,partition)|MBR]])
+- the Master Boot Record ([[SD (loader,BIOS,UIFI,partition)|MBR]])
 - and the Primary or Master Partition Table (MPT)
 
 ### Extended Partition Table
@@ -57,5 +57,5 @@ Note: accordingly, sixty-two of the first sixty-three sectors (the remaining sec
 # References:
 
 - [[File systems (theoretical)]]
-- [[Linux SD (loader,BIOS,UIFI,partition)]]
+- [[SD (loader,BIOS,UIFI,partition)]]
   
