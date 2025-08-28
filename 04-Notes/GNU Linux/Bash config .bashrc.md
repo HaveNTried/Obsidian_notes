@@ -52,4 +52,4 @@ The critical differences between _.bashrc_ and _.bash_profile_ are:
 
 ### References:
 
-- [[Linux bash]]
+- [[Linux bash(terminal)]]

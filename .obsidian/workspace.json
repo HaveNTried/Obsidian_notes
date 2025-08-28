@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Linux working with file system Practical"
             }
+          },
+          {
+            "id": "b62324c7d890aef7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-Notes/GNU Linux/Linux LVM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux LVM"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 373.5
   },
   "right": {
     "id": "f42238376af0f766",
@@ -96,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-Notes/General knowlage/File systems (theoretical).md",
+                "file": "04-Notes/GNU Linux/Linux LVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for File systems (theoretical)"
+              "title": "Backlinks for Linux LVM"
             }
           },
           {
@@ -173,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 505.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,38 +200,38 @@
       "graph:Open graph view": false
     }
   },
-  "active": "b3c49d89dcbcce51",
+  "active": "b62324c7d890aef7",
   "lastOpenFiles": [
+    "04-Notes/General knowlage/Character Block device.md",
+    "04-Notes/GNU Linux/Linux LVM.md",
+    "04-Notes/GNU Linux/Linux working with file system Practical.md",
+    "04-Notes/GNU Linux/Linux working with processes.md",
+    "04-Notes/GNU Linux/Linux User & groups.md",
+    "04-Notes/GNU Linux/Linux pseudo-file system.md",
+    "04-Notes/GNU Linux/Linux common commands.md",
+    "04-Notes/GNU Linux/Linux working with SD(Storage device).md",
+    "04-Notes/DevOps/DevOps.md",
+    "05-Working sets/Practice/P1_Permssion.md",
+    "05-Working sets/Other/Interesting cases.md",
+    "05-Working sets/Other/Why i can initialize GPT configuration on virtual sd on linux based on bios.md",
+    "04-Notes/GNU Linux/Linux bash(terminal).md",
     "04-Notes/GNU Linux/Linux working with files.md",
     "04-Notes/General knowlage/SD (loader,BIOS,UIFI,partition).md",
-    "04-Notes/GNU Linux/Linux working with file system Practical.md",
     "04-Notes/General knowlage/File systems (theoretical).md",
-    "04-Notes/GNU Linux/Linux common commands.md",
     "03-Tags/General knowledge.md",
     "05-Working sets/Other/Can uefi initialize MBR?.md",
     "04-Notes/GNU Linux/Linux Kernel Practical Application.md",
-    "05-Working sets/Other/Why i can initialize GPT configuration on virtual sd on linux based on bios.md",
     "06-Template/Template.md",
     "06-Template/List Template.md",
-    "05-Working sets/Practice/P1_Permssion.md",
-    "05-Working sets/Other/Interesting cases.md",
     "03-Tags/Other.md",
     "Pasted image 20250825130158.png",
     "04-Notes/GNU Linux/Linux Kernel(drivers , Modules).md",
-    "04-Notes/GNU Linux/Untitled.md",
-    "04-Notes/GNU Linux/Linux working with SD(Storage device).md",
     "04-Notes/General knowlage/Addressing Systems (LBA CHS).md",
     "01-Assets/Pasted image 20250825124805.png",
     "01-Assets/Pasted image 20250825124740.png",
     "04-Notes/Git/git commit.md",
     "04-Notes/Git/Git adding and commiting.md",
-    "04-Notes/Git/git add.md",
     "01-Assets/git-cheat-sheet-education.pdf",
-    "04-Notes/Git/git status.md",
-    "04-Notes/Git/Git Get started.md",
-    "04-Notes/Git/git clone.md",
-    "04-Notes/Git/Git config.md",
-    "04-Notes/Git/Git ignore.md",
     "Obsidian_notes",
     "04-Notes/Git",
     "01-Assets/Pasted image 20250822170441.png",
