@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-Notes/GNU Linux/Linux working with file system Practical.md",
+                "file": "04-Notes/GNU Linux/Linux LVM extending.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux working with file system Practical"
+              "title": "Linux LVM extending"
             }
           },
           {
@@ -110,7 +110,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-Notes/GNU Linux/Linux LVM.md",
+                "file": "04-Notes/GNU Linux/Linux LVM extending.md",
+
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linux LVM"
+              "title": "Backlinks for Linux LVM extending"
             }
           },
           {
@@ -187,7 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 505.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,10 +203,11 @@
   },
   "active": "b62324c7d890aef7",
   "lastOpenFiles": [
-    "04-Notes/General knowlage/Character Block device.md",
     "04-Notes/GNU Linux/Linux LVM.md",
-    "04-Notes/GNU Linux/Linux working with file system Practical.md",
     "04-Notes/GNU Linux/Linux working with processes.md",
+    "04-Notes/GNU Linux/Linux working with file system Practical.md",
+    "04-Notes/GNU Linux/Linux LVM extending.md",
+    "04-Notes/General knowlage/Character Block device.md",
     "04-Notes/GNU Linux/Linux User & groups.md",
     "04-Notes/GNU Linux/Linux pseudo-file system.md",
     "04-Notes/GNU Linux/Linux common commands.md",
@@ -230,7 +232,6 @@
     "01-Assets/Pasted image 20250825124805.png",
     "01-Assets/Pasted image 20250825124740.png",
     "04-Notes/Git/git commit.md",
-    "04-Notes/Git/Git adding and commiting.md",
     "01-Assets/git-cheat-sheet-education.pdf",
     "Obsidian_notes",
     "04-Notes/Git",
