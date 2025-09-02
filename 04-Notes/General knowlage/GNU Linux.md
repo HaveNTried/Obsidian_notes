@@ -19,7 +19,7 @@ Supporters of the term _Linux_ argue that it is more widely used in the media an
 
 ### References:
 
-- [[Linux bash]]
+- [[Linux bash(terminal)]]
 - [[Linux Kernel(drivers , Modules)]]
   
 

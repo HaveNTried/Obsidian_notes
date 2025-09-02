@@ -9,7 +9,7 @@
 
 # Linux common commands
 
-## Used to interact with [[Linux bash]]
+## Used to interact with [[Linux bash(terminal)]]
 File and Directory Operations: ^83020d
 
 - `ls`: Lists the contents of a directory. Options include `-l` for detailed information, `-a` to show hidden files, and `-R` to list recursively.
@@ -109,6 +109,6 @@ Other Useful Commands:
 
 ### References:
 
-- [[Linux bash]]
+- [[Linux bash(terminal)]]
 - 
   

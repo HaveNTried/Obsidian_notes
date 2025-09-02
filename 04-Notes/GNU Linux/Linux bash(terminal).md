@@ -4,7 +4,7 @@
  
 
 
-### Tags: [[03-Tags/Linux]],[[Learning]]
+### Tags: [[03-Tags/Linux]],[[Learning]], [[General knowledge]]
 
 
 
@@ -41,10 +41,10 @@ But don't forget about `#!/bin/bash’`
 4. Use tools in preference to unskilled help to lighten a programming task, even if you have to detour to build the tools and expect to throw some of them out after you've finished using them.
 
  So , in order to combine to simple tusk programs , we need to understand the concept of:
- 1. . standard input -> `stdin` < 
- 2. . standard output ->`stdout` >
- 3. standard errorHandling -> `stderr` 2>
-	 < (overwrite), << (concatenate)
+ 1. standard input -> `stdin` **<** 
+ 2. standard output ->`stdout` **>**
+ 3. standard errorHandling -> `stderr` **2>**
+	 **< (overwrite)**, **<< (add, concatenate)**
 	stdout >> stdin -> |
 	`grep -lr user /etc/ 2> /dev/null | tail -10`
    `{command return} ->{deleting errors}->stdout to stdin` 
