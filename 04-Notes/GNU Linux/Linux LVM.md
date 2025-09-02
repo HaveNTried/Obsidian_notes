@@ -108,8 +108,34 @@ root@linux2:/home/gleck# lvdisplay
 ```
 `LV Path` is were we will **mount file system**. Also `/lv1` is a soft link to `/dev/dm-*` which also are *generated an reboot* as `/dev/sd*`  
 
+---
+To write file system mount point by default in `fstab`  its obligatory to identify the device destination, in our case logical volume. We cant link it trough ==UUID== , but `/dev/mapper/*`
+```bash
+ll /dev/mapper/
+total 0
+drwxr-xr-x  2 root root   60 Sep  2 15:25 ./
+drwxr-xr-x 20 root root 4380 Sep  2 15:25 ../
+lrwxrwxrwx  1 root root    7 Sep  2 15:25 lv1 -> ../dm-0
+```
+
+in `fstab`
+```bash
+/dev/mapper/myvg-vl1 /directoryName ext4 defaults 0 0
+```
+In result:
+```bash
+ll /mydata/
+total 24
+drwxr-xr-x  3 root root  4096 Aug 29 16:04 ./
+drwxr-xr-x 25 root root  4096 Sep  2 16:04 ../
+drwx------  2 root root 16384 Aug 29 16:04 lost+found/
+
+```
+
 # References:
 
+
+- [[Linux LVM extending]]
 - [[Linux working with SD(Storage device)]]
 - [[Linux working with file system Practical]]
   
